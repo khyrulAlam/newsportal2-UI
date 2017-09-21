@@ -5,7 +5,8 @@
           <div class="container">
             <div class="row">
 
-              <div class="col-md-4">
+<!-- Moblie Section For Recent News-->
+              <div class="col-md-4 hidden-lg hidden-md">
                 <div class="row">
                   <div class="box-xm">
                     <img src="assets/img/3.jpg" alt="" class="img-responsive">
@@ -37,35 +38,56 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+
+<!-- Slider For Large View -->
+              <div class="col-md-8 hidden-xs hidden-sm">
                 <div class="row">
-                  <div class="box-sm">
-                    <img src="assets/img/2.jpg" alt="" class="img-responsive">
-                    <a href="">
-                      <div class="gd-layer-sm">
-                        <h3>The Reason Behind Samsung Galaxy Note 7 Explosions</h3>
-                        <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="box-xm">
-                    <img src="assets/img/1.jpg" alt="" class="img-responsive">
-                    <a href="">
-                      <div class="gd-layer-xm">
-                        <h3>Super Mario Run: A Bad Day For Nintendo</h3>
-                        <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="box-lg">
-                    <img src="assets/img/4.jpg" alt="" class="img-responsive">
-                    <a href="">
-                      <div class="gd-layer-lg">
-                        <h3>Google Bangladesh Under Attack!</h3>
-                        <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
-                      </div>
-                    </a>
-                  </div>
+                  <div class="banner custom">
+              			<div>
+              				<a href="details.php">
+                        <img src="assets/img/4.jpg" class="img-responsive">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo The Reason Behind Samsung Galaxy Note 7 Explosions</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              				<a href="details.php">
+                        <img src="assets/img/5.jpg">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              				<a href="details.php">
+                        <img src="assets/img/3.jpg">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              				<a href="details.php">
+                        <img src="assets/img/4.jpg">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              				<a href="details.php">
+                        <img src="assets/img/3.jpg">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              				<a href="details.php">
+                        <img src="assets/img/4.jpg">
+                        <div class="slider-description-wrapper">
+                          <h3>Super Mario Run: A Bad Day For Nintendo</h3>
+                          <p><i class="fa fa-clock-o"></i> setpember 12 2017</p>
+                        </div>
+                      </a>
+              			</div>
+              		</div>
                 </div>
               </div>
 

@@ -13,6 +13,14 @@ $(function() {
 var date = moment().format('MMMM Do YYYY');
 document.getElementById('date').innerHTML = date;
 
+//Slider
+$('.banner').terseBanner({
+  arrow: true,
+  animation: 'slide',
+  useHover: true,
+  auto: 100000
+});
+
 //Grid view
 
 var time = undefined;

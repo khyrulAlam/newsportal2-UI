@@ -46,6 +46,52 @@ nav.bootsnav .megamenu-content a {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase; }
 
+.featured-content .banner {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 465px;
+  width: 100%; }
+  .featured-content .banner a:hover {
+    text-decoration: none; }
+.featured-content .slider-description-wrapper {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(244, 67, 54, 0.61) 31%, rgba(103, 58, 183, 0.47) 100%);
+  width: 100%;
+  height: 30%;
+  margin-top: 45%; }
+  .featured-content .slider-description-wrapper h3 {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 26px;
+    color: #FFF;
+    margin: 0px;
+    padding: 20px;
+    padding-bottom: 5px;
+    height: 75px;
+    overflow: hidden; }
+  .featured-content .slider-description-wrapper p {
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    color: #CDDC39;
+    padding-left: 20px;
+    margin: 0px; }
+.featured-content .custom .tb-arrow a {
+  margin: 0 20px;
+  opacity: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+.featured-content .custom:hover .tb-arrow a {
+  opacity: 1; }
+.featured-content .custom .tb-btn {
+  bottom: 0;
+  height: 10px; }
+  .featured-content .custom .tb-btn a {
+    width: 130px;
+    margin: 0;
+    box-sizing: border-box;
+    background: #666;
+    border-right: 1px solid #fff;
+    border-radius: 0; }
+  .featured-content .custom .tb-btn .active {
+    background: #fd3030; }
 .featured-content .box-xm {
   position: relative; }
   .featured-content .box-xm img {
@@ -71,7 +117,7 @@ nav.bootsnav .megamenu-content a {
 .featured-content .box-lg {
   position: relative; }
   .featured-content .box-lg img {
-    height: 250px;
+    height: 165px;
     width: 100%; }
   .featured-content .box-lg .gd-layer-lg {
     background: rgba(95, 44, 130, 0.7);
@@ -97,7 +143,7 @@ nav.bootsnav .megamenu-content a {
 .featured-content .box-sm {
   position: relative; }
   .featured-content .box-sm img {
-    height: 180px;
+    height: 150px;
     width: 100%; }
   .featured-content .box-sm .gd-layer-sm {
     background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, rgba(184, 203, 184, 0.55) 0%, rgba(226, 197, 139, 0.58) 30%, rgba(194, 206, 156, 0.79) 64%, rgba(126, 219, 220, 0.65) 100%);
